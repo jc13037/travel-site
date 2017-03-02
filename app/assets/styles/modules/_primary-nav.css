@@ -50,6 +50,11 @@
       padding: 12px 0;
       font-size: 1rem;
       background-color: transparent;
+
+      /* if link has the '.is-current-link' class */
+      &.is-current-link {
+        color: #fabb69;
+      }
     }
   }
 }
